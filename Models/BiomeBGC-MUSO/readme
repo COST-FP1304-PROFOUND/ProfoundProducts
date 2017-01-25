@@ -1,0 +1,5 @@
+IMPORTANT: the package / code here is provided to demonstrate how to wrap a model in R. For reasons of copyright, it does not provide the BiomeBGC-MUSO source code and you will therefore not be able to run the model. 
+
+The full package including the source code is currently developed on a separate repository. In case of interest, contact Ferenc Horvath (PI) horvath.ferenc@okologia.mta.hu or Hollós Roland (package developer) hollorol@gmail.com
+
+The development of the R package was facilitated through an STSM within PROFOUND. 
