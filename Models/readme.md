@@ -4,34 +4,12 @@ PROFOUND MODELS
 Above an overview of models used within Profound, and potentially available for PROFOUND members (availability differs between the models - some can be installed direcly, some need to be requested from the respective modelling group).
 
 
-## For users - installing forest models to your R system from a GitHub repo
-
-*The information below is the general idea. Particular models may need other steps. Navigate to the folders of the models that you want to use and look for further instructions about to install the toos / models to your R system.*
-
-**NOTE**: quite a few of the packages come without the model source code because the developers don't want to make them public. We provide the packages here as a demonstration of how to couple the models to R, but you won't be able to run the model if you install them'. If you want to use them, you need to get in touch with the model / package developers. '
-
-General instructions:
-
-1. Either you clone / download the whole repo or the model folder, and install the package locally (e.g. via RStudio, see http://biometry.github.io/APES/R/R70-PackageDevelopment.html)
-2. Or install directly from GH. If the models are provided as R package, the easiest way to install them should be via the 'devtools' package:
-
-```{r}
-install.packages("devtools")
-library(devtools)
-
-install_github("COST-FP1304-PROFOUND", subdir = "Models/modelX/packageX", auth_token ="YOURTOKEN")
-```
-
-Where YOURTOKEN is your github authentification token (see gh help). Alternative to the token, you can provide username and password to the install_github function. If we open up this repository, you won't need the token any more. 
-
 
 ## For developers
 
 Currently, the idea is that we will not have one big PROFOUND R package for the models, but that each modelling group should maintain an own R package or code to call their model from R. We think that this should be easier to maintain an coordinate, also easier to give attribution to the people. 
 
-We would strongly encourage to provide an R package, instead of R code, because this is easier to deploy, forces good documentation, and seems overall without disadvantages compared to maintaining code. But it's your choice. Below hints on how to make your model available in R
-
-How to make your model callable from R, and how to create an R package, is described in Appendix A of the WG3 tutorial https://www.dropbox.com/s/y3d5fqh61eqdzz6/TG13-ModelCalibrationTutorial.pdf?dl=0 
+We would strongly encourage to provide an R package, instead of R code, because this is easier to deploy, forces good documentation, and seems overall without disadvantages compared to maintaining code. But it's your choice. How to make your model callable from R, and how to create an R package, is described in Appendix A of the WG3 tutorial https://www.dropbox.com/s/y3d5fqh61eqdzz6/TG13-ModelCalibrationTutorial.pdf?dl=0 
 
 
 #### Maintaining the same function interface
