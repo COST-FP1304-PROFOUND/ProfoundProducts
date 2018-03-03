@@ -1,4 +1,4 @@
-# Infrastructure products of 
+# Infrastructure products of CA FP1304 PROFOUND
 
 This repository contains an overview of the common infrastructure developed by [CA FP1304 PROFOUND](http://cost-profound.eu/site/). Navigate to the subfolders and follow the instructions there to run code / install packages 
 
