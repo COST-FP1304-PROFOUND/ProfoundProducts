@@ -2,10 +2,10 @@
 
 This repository is divided into 4 sections
 
-1. Data - PROFOUND R package for data access, as well as scripts used for processing the raw data
-2. Models - R packages for models used within PROFOUND. Many of the models have profited from collaborations / STSMs within PROFOUND
-3. Protocols - Analysis protocols developed through PROFOUND
-4. Software - Statistical algorithms developed through PROFOUND
+1. [https://github.com/COST-FP1304-PROFOUND/ProfoundProducts/tree/master/Data](Data) - PROFOUND R package for data access, as well as scripts used for processing the raw data
+2. [https://github.com/COST-FP1304-PROFOUND/ProfoundProducts/tree/master/Models](Models) - R packages for models used within PROFOUND. Many of the models have profited from collaborations / STSMs within PROFOUND
+3. [https://github.com/COST-FP1304-PROFOUND/ProfoundProducts/tree/master/Protocols](Protocols) - Analysis protocols developed through PROFOUND
+4. [https://github.com/COST-FP1304-PROFOUND/ProfoundProducts/tree/master/Software](Software) - Statistical algorithms developed through PROFOUND
 
 Navigate to the subfolders and follow the instructions there to run code / install packages 
 
