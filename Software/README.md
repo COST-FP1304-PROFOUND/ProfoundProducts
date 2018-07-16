@@ -1,4 +1,4 @@
-# Statistical software / algorithms for model calibration and uncertainty analysis
+# Model calibration and uncertainty analysis
 
 Collaboration between researchers from PROFOUND has facilitated the development of the BayesianTools package, available at on CRAN ([here](https://cran.r-project.org/web/packages/BayesianTools/index.html)).
 
@@ -6,4 +6,7 @@ The package contains several general-purpose MCMC and SMC samplers, as well as p
 
 Additionally to the vignette, there is also a more extended manual / protocol for model calibration with forrest models (WG3 tutorial, see section protocls), that however, is currently only available on request.
 
+# Other software
+
+* https://ehrmanns.github.io/rasterTools/ (developed via a PROFOUND STSM)
 
